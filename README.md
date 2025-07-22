@@ -47,12 +47,16 @@ This repository contains the code and input data required to reproduce the resul
 
 ## Generating figures
 
+*TBD*
+
 <!-- TELL WHICH FIGURE IS WHERE -->
 
 ## License
 
-<!-- ADD MIT LICENSE NOTICE -->
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
+
+*TBD*
 
 <!-- ADD BibTeX citation -->
