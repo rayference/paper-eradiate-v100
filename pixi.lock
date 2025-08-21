@@ -1085,7 +1085,7 @@ packages:
 - pypi: ./
   name: paper-eradiate-v100
   version: 0.1.0
-  sha256: 5de5052153a79e18c871ac50bdb13b582728beb16138d3a4fbbc4afe86747169
+  sha256: 5f521fd2a38c13a67801182d05ed6ccf9f9a2a623f6d913172da1c9443ae6223
   requires_dist:
   - eradiate[kernel]==0.31.0rc1
   - ipykernel
