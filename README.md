@@ -18,6 +18,8 @@
     ·
     <strong>Nicolas Misk</strong>
     ·
+    <strong>Misael Gonzalez Almeida</strong>
+    ·
     <strong>Yves Govaerts</strong>
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
@@ -31,6 +33,15 @@
 
 <!-- ADD LINK AUTHORS -->
 <!-- ADD LINK PAPER PDF -->
+
+<!--
+    TODO:
+
+    - Vincent: Wellington Citrus Orchard example
+    - Vincent: Algeria-5 example
+    - Vincent: Pokhara example
+    - Misael: Gobabeb example
+-->
 
 ## About
 
