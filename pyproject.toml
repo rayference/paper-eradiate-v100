@@ -1,12 +1,6 @@
 [project]
 authors = [{ name = "Vincent Leroy", email = "vincent.leroy@rayference.eu" }]
-dependencies = [
-  "eradiate[kernel]==0.31.0rc2",
-  "ipykernel",
-  "ipywidgets",
-  "seaborn",
-  "pymap3d",
-]
+dependencies = ["eradiate[kernel]==0.31.0rc2", "ipykernel", "ipywidgets", "seaborn"]
 name = "paper-eradiate-v100"
 requires-python = ">= 3.10"
 version = "0.1.0"
