@@ -22,3 +22,11 @@ repos:
     rev: v0.9.3
     hooks:
       - id: taplo-format
+  - repo: local
+    hooks:
+      - id: pixi-to-conda-export
+        name: Export pixi environment to Conda
+        entry: pixi workspace export conda-environment environment.yml
+        language: system
+        files: ^pyproject\.toml$
+        pass_filenames: false
