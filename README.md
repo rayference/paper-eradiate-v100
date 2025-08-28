@@ -18,6 +18,8 @@
     ·
     <strong>Nicolas Misk</strong>
     ·
+    <strong>Misael Gonzalez Almeida</strong>
+    ·
     <strong>Yves Govaerts</strong>
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
@@ -29,8 +31,8 @@
     🌐&nbsp;<a href="https://www.eradiate.eu/">Project website</a>
 </p>
 
-<!-- ADD LINK AUTHORS -->
-<!-- ADD LINK PAPER PDF -->
+<!-- ADD LINK TO AUTHORS -->
+<!-- ADD LINK TO PAPER PDF -->
 
 ## About
 
@@ -45,11 +47,9 @@ This repository contains the code and input data required to reproduce the resul
 
 *TBD*
 
-## Generating figures
+## Getting started
 
 *TBD*
-
-<!-- TELL WHICH FIGURE IS WHERE -->
 
 ## License
 

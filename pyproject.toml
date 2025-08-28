@@ -1,7 +1,11 @@
 [project]
-authors = [{name = "Vincent Leroy", email = "vincent.leroy@rayference.eu"}]
+authors = [{ name = "Vincent Leroy", email = "vincent.leroy@rayference.eu" }]
 dependencies = [
-    "eradiate[kernel]==0.30.0"
+  "eradiate[kernel]==0.31.0rc2",
+  "ipykernel",
+  "ipywidgets",
+  "seaborn",
+  "pymap3d",
 ]
 name = "paper-eradiate-v100"
 requires-python = ">= 3.10"
@@ -19,7 +23,7 @@ platforms = ["linux-64"]
 paper_eradiate_v100 = { path = ".", editable = true }
 
 [tool.pixi.feature.py310]
-dependencies = { python = "3.10.*"}
+dependencies = { python = "3.10.*" }
 
 [tool.pixi.environments.default]
 features = ["py310"]
