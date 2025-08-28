@@ -7,8 +7,8 @@ dependencies:
 - python >=3.10
 - pip
 - pip:
-  - -e .
-  - eradiate[kernel]==0.31.0rc2
+  - eradiate[kernel]==0.31.0rc3
   - ipykernel
   - ipywidgets
   - seaborn
+  - jupyterlab

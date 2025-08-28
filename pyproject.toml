@@ -1,6 +1,12 @@
 [project]
 authors = [{ name = "Vincent Leroy", email = "vincent.leroy@rayference.eu" }]
-dependencies = ["eradiate[kernel]==0.31.0rc2", "ipykernel", "ipywidgets", "seaborn"]
+dependencies = [
+  "eradiate[kernel]==0.31.0rc3",
+  "ipykernel",
+  "ipywidgets",
+  "seaborn",
+  "jupyterlab",
+]
 name = "paper-eradiate-v100"
 requires-python = ">= 3.10"
 version = "0.1.0"
@@ -11,10 +17,9 @@ requires = ["hatchling"]
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["linux-64", "osx-64"]
 
 [tool.pixi.pypi-dependencies]
-paper_eradiate_v100 = { path = ".", editable = true }
 
 [tool.pixi.feature.py310]
 dependencies = { python = "3.10.*" }
