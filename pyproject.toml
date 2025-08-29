@@ -28,3 +28,4 @@ dependencies = { python = "3.10.*" }
 features = ["py310"]
 
 [tool.pixi.tasks]
+download = "bash download.sh"
