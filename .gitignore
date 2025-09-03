@@ -1,3 +1,4 @@
 .pixi
 *.pyc
 data/
+.ipynb_checkpoints/

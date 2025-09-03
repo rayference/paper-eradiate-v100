@@ -43,13 +43,29 @@ This repository contains the code and input data required to reproduce the resul
 > [!IMPORTANT]
 > This code is *not* part of the Eradiate documentation and is consequently not updated upon new Eradiate releases.
 
-## Installation
-
-*TBD*
-
 ## Getting started
 
 *TBD*
+
+The examples provided in this repository can be run in several ways:
+
+* **Reproducible setup with Pixi.**
+
+  1. Install [Pixi](https://pixi.sh/) and run `pixi install` at the root of this
+     repository.
+  2. Run `pixi run download` to download the support data.
+  3. Run `pixi run jupyter lab` to open a Jupyter Lab session and start browsing
+     the examples.
+
+* **Classic Conda environment.**
+
+  1. Install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main).
+  2. Create a Conda environment from the provided environment file by calling
+     `conda env create -f environment.yml -n paper-eradiate-v100`.
+  3. Activate the environment by calling `conda activate paper-eradiate-v100`.
+  4. Run `bash download.sh` to download the support data.
+  5. Run `jupyter lab` to open a Jupyter Lab session and start browsing the
+     examples.
 
 ## License
 
