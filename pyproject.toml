@@ -1,7 +1,7 @@
 [project]
 authors = [{ name = "Vincent Leroy", email = "vincent.leroy@rayference.eu" }]
 dependencies = [
-  "eradiate[kernel]==0.31.0rc3",
+  "eradiate[kernel]==0.31.0",
   "ipykernel",
   "ipywidgets",
   "seaborn",
