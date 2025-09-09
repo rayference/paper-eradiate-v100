@@ -6,6 +6,7 @@ dependencies = [
   "ipywidgets",
   "seaborn",
   "jupyterlab",
+  "jupyter-ruff>=0.3.0,<0.4",
 ]
 name = "paper-eradiate-v100"
 requires-python = ">= 3.10"
