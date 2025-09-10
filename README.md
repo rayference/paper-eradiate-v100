@@ -63,9 +63,14 @@ The examples provided in this repository can be run in several ways:
   2. Create a Conda environment from the provided environment file by calling
      `conda env create -f environment.yml -n paper-eradiate-v100`.
   3. Activate the environment by calling `conda activate paper-eradiate-v100`.
-  4. Run `bash download.sh` to download the support data.
+  4. Run `python download.py` to download the core support data.
   5. Run `jupyter lab` to open a Jupyter Lab session and start browsing the
      examples.
+
+> [!IMPORTANT]
+> The Algeria and Dakar scenes require additional resources, which can be
+> downloaded with the `download.py` utility (accessible with `pixi download` if
+> you are using Pixi).
 
 ## License
 
