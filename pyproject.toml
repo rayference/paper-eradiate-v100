@@ -2,6 +2,7 @@
 authors = [{ name = "Vincent Leroy", email = "vincent.leroy@rayference.eu" }]
 dependencies = [
   "eradiate[kernel]==0.31.1.dev0",
+  "dreams-scenes@git+ssh://git@github.com/rayference/dreams#subdirectory=packages/dreams_scenes",
   "ipykernel",
   "ipywidgets",
   "seaborn",
