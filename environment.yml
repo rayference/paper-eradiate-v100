@@ -7,7 +7,7 @@ dependencies:
 - python >=3.10
 - pip
 - pip:
-  - eradiate[kernel]==0.31.0
+  - eradiate[kernel]==0.31.1.dev0
   - ipykernel
   - ipywidgets
   - seaborn
