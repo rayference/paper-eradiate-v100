@@ -20,6 +20,8 @@
     ·
     <strong>Misael Gonzalez Almeida</strong>
     ·
+    <strong>Sebastian Schunke</strong>
+    ·
     <strong>Yves Govaerts</strong>
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
@@ -36,20 +38,18 @@
 
 ## About
 
-This repository contains the code used for the applications presented in the paper "Eradiate v1.0.0: A next-generation radiative transfer model for Earth observation" published in *Geoscientific Model Development*.
+This repository contains the code used for the applications presented in the paper "Eradiate: An Accurate and Flexible Radiative Transfer Model for Earth Observation and Atmospheric Science" submitted to *Geoscientific Model Development*.
 
 This repository contains the code and input data required to reproduce the results presented in the paper and demonstrate some features of the Eradiate radiative transfer model.
 
 > [!IMPORTANT]
-> This code is *not* part of the Eradiate documentation and is consequently not updated upon new Eradiate releases.
+> This code is *not* part of the Eradiate documentation and is consequently not updated upon new Eradiate releases. However, changes are that a
 
 ## Getting started
 
-*TBD*
-
 The examples provided in this repository can be run in several ways:
 
-* **Reproducible setup with Pixi.**
+* **Reproducible setup with Pixi**
 
   1. Install [Pixi](https://pixi.sh/) and run `pixi install` at the root of this
      repository.
@@ -57,7 +57,7 @@ The examples provided in this repository can be run in several ways:
   3. Run `pixi run jupyter lab` to open a Jupyter Lab session and start browsing
      the examples.
 
-* **Classic Conda environment.**
+* **Classic Conda environment**
 
   1. Install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main).
   2. Create a Conda environment from the provided environment file by calling
@@ -69,7 +69,7 @@ The examples provided in this repository can be run in several ways:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 
