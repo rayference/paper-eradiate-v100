@@ -4,11 +4,11 @@ channels:
 - nodefaults
 dependencies:
 - python 3.10.*
-- python >=3.10
+- python >=3.10,<3.13
 - pip
 - pip:
   - eradiate[kernel]==0.31.1.dev0
-  - dreams-scenes @ git+ssh://git@github.com/rayference/dreams-scenes
+  - dreams-scenes @ git+ssh://git@github.com/rayference/dreams-scenes@v0.1.0
   - ipykernel
   - ipywidgets
   - seaborn

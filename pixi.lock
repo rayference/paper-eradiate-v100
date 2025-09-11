@@ -56,7 +56,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/e4/1820e3a8654f127a498b4efef14aa6dfff52878116f8e81da78794b1f6d3/dessinemoi-25.1.0-py3-none-any.whl
-      - pypi: git+ssh://git@github.com/rayference/dreams-scenes#6530cc2035175023d3df034c34789d02d4b0acd8
+      - pypi: git+ssh://git@github.com/rayference/dreams-scenes?rev=v0.1.0#d0d5c7e78caf8e8c9d0e0bed666d4487bfc3de49
       - pypi: https://files.pythonhosted.org/packages/47/da/a3e3c697c9d758421f7ac0cbbc198a81607085829793a7c6eb9ae4e17d62/drjit-0.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/64/580c74003a356c5662e7b1da43ecd7cbda6e8f970c87b30c5a654c8ccb53/dynaconf-3.2.11-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/26/ae/f91c7945617297d89f1de35e959dda20f6526e39f05326c358e5d4929975/eradiate-0.31.1.dev0-py3-none-any.whl
@@ -234,7 +234,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/e4/1820e3a8654f127a498b4efef14aa6dfff52878116f8e81da78794b1f6d3/dessinemoi-25.1.0-py3-none-any.whl
-      - pypi: git+ssh://git@github.com/rayference/dreams-scenes#6530cc2035175023d3df034c34789d02d4b0acd8
+      - pypi: git+ssh://git@github.com/rayference/dreams-scenes?rev=v0.1.0#d0d5c7e78caf8e8c9d0e0bed666d4487bfc3de49
       - pypi: https://files.pythonhosted.org/packages/61/4a/c0447bf09f9461948c4de3472b6c7da6bb574d37902fdf65409bbf899deb/drjit-0.4.6-cp310-cp310-macosx_10_14_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/64/580c74003a356c5662e7b1da43ecd7cbda6e8f970c87b30c5a654c8ccb53/dynaconf-3.2.11-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/26/ae/f91c7945617297d89f1de35e959dda20f6526e39f05326c358e5d4929975/eradiate-0.31.1.dev0-py3-none-any.whl
@@ -788,13 +788,14 @@ packages:
   requires_dist:
   - attrs>=21
   requires_python: '>=3.8'
-- pypi: git+ssh://git@github.com/rayference/dreams-scenes#6530cc2035175023d3df034c34789d02d4b0acd8
+- pypi: git+ssh://git@github.com/rayference/dreams-scenes?rev=v0.1.0#d0d5c7e78caf8e8c9d0e0bed666d4487bfc3de49
   name: dreams-scenes
   version: 0.1.0
   requires_dist:
   - attrs>=24.2.0
   - dask[dataframe]>=2024.12.0
   - dynaconf>=3.2.6
+  - eradiate[kernel]>=0.31,<1.1
   - geopandas>=1.0.1
   - numpy>=1.26
   - pyproj>=3.5
@@ -802,7 +803,7 @@ packages:
   - scipy>=1.13.1
   - xarray-regrid>=0.4.0
   - xarray>=2022
-  requires_python: '>=3.10,<3.13'
+  requires_python: '>=3.9,<3.13'
 - pypi: https://files.pythonhosted.org/packages/47/da/a3e3c697c9d758421f7ac0cbbc198a81607085829793a7c6eb9ae4e17d62/drjit-0.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
   name: drjit
   version: 0.4.6
