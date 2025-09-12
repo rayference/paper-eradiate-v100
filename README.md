@@ -22,6 +22,10 @@
     ·
     <strong>Sebastian Schunke</strong>
     ·
+    <strong>Noelle Cremer</strong>
+    ·
+    <a href="https://www.linkedin.com/in/ferran-gascon-roca-570b44243/"><strong>Ferran Gascon</strong></a>
+    ·
     <strong>Yves Govaerts</strong>
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
@@ -43,7 +47,7 @@ This repository contains the code used for the applications presented in the pap
 This repository contains the code and input data required to reproduce the results presented in the paper and demonstrate some features of the Eradiate radiative transfer model.
 
 > [!IMPORTANT]
-> This code is *not* part of the Eradiate documentation and is consequently not updated upon new Eradiate releases. However, changes are that a
+> This code is *not* part of the Eradiate documentation and is consequently not updated upon new Eradiate releases.
 
 ## Getting started
 
