@@ -13,4 +13,5 @@ dependencies:
   - ipywidgets
   - seaborn
   - jupyterlab
-  - jupyter-ruff>=0.3.0, <0.4
+  - jupyter-resource-usage
+  - jupyterlab-execute-time
