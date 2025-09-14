@@ -73,8 +73,9 @@ The examples provided in this repository can be run in several ways:
 
 > [!IMPORTANT]
 > The Algeria and Dakar scenes require additional resources, which can be
-> downloaded with the `download.py` utility (accessible with `pixi download` if
-> you are using Pixi).
+> downloaded with the `download.py` utility (resp. `pixi download` if
+> you are using the Pixi setup). Run `python download.py --help` (resp.
+> `pixi run download --help`) for more information.
 
 ## License
 
