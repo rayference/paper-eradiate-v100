@@ -5,6 +5,8 @@ environments:
     - url: https://conda.anaconda.org/conda-forge/
     indexes:
     - https://pypi.org/simple
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -59,7 +61,7 @@ environments:
       - pypi: git+ssh://git@github.com/rayference/dreams-scenes?rev=v0.1.0#d0d5c7e78caf8e8c9d0e0bed666d4487bfc3de49
       - pypi: https://files.pythonhosted.org/packages/47/da/a3e3c697c9d758421f7ac0cbbc198a81607085829793a7c6eb9ae4e17d62/drjit-0.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/64/580c74003a356c5662e7b1da43ecd7cbda6e8f970c87b30c5a654c8ccb53/dynaconf-3.2.11-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/3d/21/6e2a7113e286180d7b89bdb1c72875221ea1aa00c590bd2e3a989741d094/eradiate-1.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f3/bd/1bfc81b540954e823dc74c8011f68f1b755d5ad06fa2654ac10b6c71506f/eradiate-1.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c2/f9/fdff37c328d4987df4e800d12fa26eeaa9c6f66fdbe9cc3cdd473112ed4d/eradiate_mitsuba-0.3.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/f4/c6e662dade71f56cd2f3735141b265c3c79293c109549c1e6933b0651ffc/exceptiongroup-1.3.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/8f/c4d9bafc34ad7ad5d8dc16dd1347ee0e507a52c3adb6bfa8887e1c6a26ba/executing-2.2.0-py2.py3-none-any.whl
@@ -115,7 +117,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/cc/9a/cd673b2f773a12c992f41309ef81b99da1690426bd2f96957a7ade0d3ed7/nbconvert-7.16.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a0/c4/c2971a3ba4c6103a3d10c4b0f24f461ddc027f0f09763220cf35ca1401b3/nest_asyncio-1.6.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/db/a6/54f0f335b28228b89e1598fda950382c83b1d7b1f75d28c5eebbcb7f113e/netCDF4-1.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/49/3c/1129ea3943f6f5736be08c2d79ca5965d0a55adbfc38f313a59938a7a62a/netcdf4-1.7.2-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4b/d7/ecf66c1cd12dc28b4040b15ab4d17b773b87fa9d29ca16125de01adb36cd/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b0/e0/760e73c111193db5ca37712a148e4807d1b0c60302ab31e4ada6528ca34d/numpy_groupies-0.11.3-py3-none-any.whl
@@ -238,7 +240,7 @@ environments:
       - pypi: git+ssh://git@github.com/rayference/dreams-scenes?rev=v0.1.0#d0d5c7e78caf8e8c9d0e0bed666d4487bfc3de49
       - pypi: https://files.pythonhosted.org/packages/61/4a/c0447bf09f9461948c4de3472b6c7da6bb574d37902fdf65409bbf899deb/drjit-0.4.6-cp310-cp310-macosx_10_14_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/64/580c74003a356c5662e7b1da43ecd7cbda6e8f970c87b30c5a654c8ccb53/dynaconf-3.2.11-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/3d/21/6e2a7113e286180d7b89bdb1c72875221ea1aa00c590bd2e3a989741d094/eradiate-1.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f3/bd/1bfc81b540954e823dc74c8011f68f1b755d5ad06fa2654ac10b6c71506f/eradiate-1.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/d2/1dee1ce98c2c2614a4b50eb22cb1005cb98e249baf753392bcf721e3befe/eradiate_mitsuba-0.3.2-cp310-cp310-macosx_10_14_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/36/f4/c6e662dade71f56cd2f3735141b265c3c79293c109549c1e6933b0651ffc/exceptiongroup-1.3.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/8f/c4d9bafc34ad7ad5d8dc16dd1347ee0e507a52c3adb6bfa8887e1c6a26ba/executing-2.2.0-py2.py3-none-any.whl
@@ -294,7 +296,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/cc/9a/cd673b2f773a12c992f41309ef81b99da1690426bd2f96957a7ade0d3ed7/nbconvert-7.16.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a0/c4/c2971a3ba4c6103a3d10c4b0f24f461ddc027f0f09763220cf35ca1401b3/nest_asyncio-1.6.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/53/00/2b1fb43e46e3d986e961e420046453796d67200b58639bd29f18657a39b7/netCDF4-1.7.2-cp310-cp310-macosx_12_0_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/d6/dd/c713bfe9aa122fe2d1e3c9320fc436b5ad922c93df24d707d9fffb66b0e2/netcdf4-1.7.2-cp310-cp310-macosx_13_0_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a7/94/ace0fdea5241a27d13543ee117cbc65868e82213fb31a8eb7fe9ff23f313/numpy-1.26.4-cp310-cp310-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b0/e0/760e73c111193db5ca37712a148e4807d1b0c60302ab31e4ada6528ca34d/numpy_groupies-0.11.3-py3-none-any.whl
@@ -844,10 +846,10 @@ packages:
   - hvac ; extra == 'vault'
   - ruamel-yaml ; extra == 'yaml'
   requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/3d/21/6e2a7113e286180d7b89bdb1c72875221ea1aa00c590bd2e3a989741d094/eradiate-1.0.0-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/f3/bd/1bfc81b540954e823dc74c8011f68f1b755d5ad06fa2654ac10b6c71506f/eradiate-1.0.1-py3-none-any.whl
   name: eradiate
-  version: 1.0.0
-  sha256: 61cc868775ec99876f41a9e00d383c14ba87e19b2d8c580b486355d771d1db43
+  version: 1.0.1
+  sha256: 47932e800f78360933e88b321dc83403602454acfbea38b0048695661c23ebbf
   requires_dist:
   - aenum
   - attrs>=22.2
@@ -2260,10 +2262,10 @@ packages:
   version: 1.6.0
   sha256: 87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c
   requires_python: '>=3.5'
-- pypi: https://files.pythonhosted.org/packages/53/00/2b1fb43e46e3d986e961e420046453796d67200b58639bd29f18657a39b7/netCDF4-1.7.2-cp310-cp310-macosx_12_0_x86_64.whl
+- pypi: https://files.pythonhosted.org/packages/49/3c/1129ea3943f6f5736be08c2d79ca5965d0a55adbfc38f313a59938a7a62a/netcdf4-1.7.2-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
   name: netcdf4
   version: 1.7.2
-  sha256: 5e9b485e3bd9294d25ff7dc9addefce42b3d23c1ee7e3627605277d159819392
+  sha256: 835ae7bcef666c967241baeeee9bef9376ddb7527297b24735597131f6f628e2
   requires_dist:
   - cftime
   - certifi
@@ -2271,11 +2273,13 @@ packages:
   - cython ; extra == 'tests'
   - packaging ; extra == 'tests'
   - pytest ; extra == 'tests'
-  requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/db/a6/54f0f335b28228b89e1598fda950382c83b1d7b1f75d28c5eebbcb7f113e/netCDF4-1.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  - typing-extensions>=4.15.0 ; extra == 'tests'
+  - mpi4py ; extra == 'parallel'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/d6/dd/c713bfe9aa122fe2d1e3c9320fc436b5ad922c93df24d707d9fffb66b0e2/netcdf4-1.7.2-cp310-cp310-macosx_13_0_x86_64.whl
   name: netcdf4
   version: 1.7.2
-  sha256: 28021c7e886e5bccf9a8ce504c032d1d7f98d86f67495fb7cf2c9564eba04510
+  sha256: 16c3ba053930ed990e58827de6ab03184e407549004fb77438b98e5777e8cf3b
   requires_dist:
   - cftime
   - certifi
@@ -2283,7 +2287,9 @@ packages:
   - cython ; extra == 'tests'
   - packaging ; extra == 'tests'
   - pytest ; extra == 'tests'
-  requires_python: '>=3.8'
+  - typing-extensions>=4.15.0 ; extra == 'tests'
+  - mpi4py ; extra == 'parallel'
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/f9/33/bd5b9137445ea4b680023eb0469b2bb969d61303dedb2aac6560ff3d14a1/notebook_shim-0.2.4-py3-none-any.whl
   name: notebook-shim
   version: 0.2.4

@@ -7,7 +7,7 @@ dependencies:
 - python >=3.10,<3.13
 - pip
 - pip:
-  - eradiate[kernel]==1.0.*
+  - eradiate[kernel]>=1.0.1, <1.1.0
   - dreams-scenes @ git+ssh://git@github.com/rayference/dreams-scenes@v0.1.0
   - ipykernel
   - ipywidgets

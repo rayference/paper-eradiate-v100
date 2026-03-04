@@ -30,7 +30,7 @@
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
     |
-    📚&nbsp;<a href="https://eradiate.readthedocs.io/en/v1.0.0/">Documentation</a>
+    📚&nbsp;<a href="https://eradiate.readthedocs.io/en/v1.0.1/">Documentation</a>
     |
     🗒️&nbsp;Paper PDF
     |
