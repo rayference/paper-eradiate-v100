@@ -5,7 +5,7 @@
 <img src="fig/logo_darkmode.png#gh-dark-mode-only" alt="Logo" />
 </p>
 
-<h1 align="center">v1.0.0</h1>
+<h1 align="center">v1.0.2</h1>
 
 <p align="center">
     Geoscientific Model Development <!-- ADD JOURNAL ISSUE WHEN PUBLISHED -->
@@ -30,7 +30,7 @@
     <br />
     🖥️&nbsp;<a href="https://github.com/eradiate/eradiate/">Source code</a>
     |
-    📚&nbsp;<a href="https://eradiate.readthedocs.io/en/v1.0.1/">Documentation</a>
+    📚&nbsp;<a href="https://eradiate.readthedocs.io/en/v1.0.2/">Documentation</a>
     |
     🗒️&nbsp;Paper PDF
     |
