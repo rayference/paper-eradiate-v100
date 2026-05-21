@@ -32,7 +32,7 @@
     |
     📚&nbsp;<a href="https://eradiate.readthedocs.io/en/v1.0.2/">Documentation</a>
     |
-    🗒️&nbsp;Paper PDF
+    🗒️&nbsp;<a href="https://doi.org/10.5194/gmd-19-4289-2026">Paper (publisher's version)</a>
     |
     🌐&nbsp;<a href="https://www.eradiate.eu/">Project website</a>
 </p>
@@ -83,6 +83,22 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Citation
 
-*TBD*
+*Text*
 
-<!-- ADD BibTeX citation -->
+> Leroy, V., Marton, N., Emde, C., Misk, N., Gonzalez Almeida, M., Schunke, S., Cremer, N., Gascon, F., and Govaerts, Y.: Eradiate: an accurate and flexible radiative transfer model for earth observation and atmospheric science, Geosci. Model Dev., 19, 4289–4318, https://doi.org/10.5194/gmd-19-4289-2026, 2026.
+
+*BibTeX*
+
+```bibtex
+@article{Leroy2026EradiateRTM,
+  author={Leroy, Vincent and Marton, Nicolae and Emde, Claudia and Misk, Nicolas and Gonzalez Almeida, Misael and Schunke, Sebastian and Cremer, Noelle and Gascon, Ferran and Govaerts, Yves},
+  journal={EGUsphere},
+  title={Eradiate: an accurate and flexible radiative transfer model for earth observation and atmospheric science},
+  year={2026},
+  volume={19},
+  number={10},
+  pages={4289--4318},
+  doi={10.5194/gmd-19-4289-2026}
+  url={https://gmd.copernicus.org/articles/19/4289/2026/}
+}
+```
